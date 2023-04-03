@@ -1,4 +1,5 @@
-##Body Mass Index Calculator
+# Body Mass Index Calculator
+
 This code is a Body Mass Index (BMI) calculator that takes user inputs for height and weight, calculates the BMI score, and then categorizes the score based on different thresholds. After prompting the user to input their height and weight, the code calculates the BMI score by dividing weight by the square of height, and then prints the result with a message indicating the user's BMI category. The categories are as follows:
 
 BMI score less than or equal to 18: Thin
