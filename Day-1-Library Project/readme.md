@@ -1,1 +1,12 @@
 ## Library Project Description
+The Library Project is a Python program that allows users to manage a book library. The program stores information about books in a CSV (Comma-Separated Values) file, which can be easily read and written to using Python's built-in csv module. The program's functionality is divided into several functions, each of which performs a specific task.
+
+Firstly, the program reads the book information from the CSV file and stores it in a list of dictionaries. Each dictionary represents a single book, and contains information such as the book's title, author, and ISBN. Once the book data is loaded into memory, the program displays a menu of options to the user.
+
+The user can choose from several options, including viewing all books in the library, adding a new book, updating an existing book's information, and deleting a book from the library. To implement these features, the program uses various functions that interact with the list of book dictionaries.
+
+To view all books in the library, the program simply iterates through the list of book dictionaries and prints each book's information to the console. To add a new book, the user is prompted to input the book's title, author, and ISBN. The program then creates a new dictionary with this information and appends it to the list of book dictionaries. To update an existing book, the user is prompted to enter the book's title, and the program searches the list of book dictionaries for a book with a matching title. If a match is found, the user is prompted to enter the updated book information, and the program updates the corresponding dictionary in the list. Finally, to delete a book, the user is prompted to enter the book's title, and the program searches the list of book dictionaries for a match. If a match is found, the corresponding dictionary is removed from the list.
+
+The program also includes search functionality, which allows the user to search for a book by any of its attributes (title, author, or ISBN). To implement this feature, the program prompts the user to enter a search term and searches each book dictionary for a match. If a match is found, the book's information is printed to the console.
+
+Once the user has finished using the program, any changes made to the list of book dictionaries are written back to the CSV file using the csv module's writerows() function. Overall, this program provides a user-friendly and efficient way to manage a book library using Python.
