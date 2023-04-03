@@ -1,2 +1,2 @@
 ## Calculator Project
-Calculator Project
+This code is a simple calculator program that allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers. After printing a welcome message with color-coded text, the program prompts the user to input two numbers and select an operation to perform. Depending on the user's input, the program performs the selected operation and displays the result. After displaying the result, the program prompts the user to either continue using the calculator or shut down the system. The program also uses ANSI escape codes to enhance the visual display of the text.
