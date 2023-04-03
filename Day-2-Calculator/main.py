@@ -52,7 +52,6 @@ class Calculator():
         if select == "q" or select == "Q":
             print("System Shut Down..")
 
-if __name__ == '__main__':
-    calc = Calculator()
-    calc.app()
-    calc.select()
+program = Calculator()
+program.app()
+program.select()
