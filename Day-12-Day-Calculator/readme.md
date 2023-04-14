@@ -1,6 +1,4 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
+# Day calculator
+This Python program calculates the number of days remaining until a target date specified by the user. The program uses the datetime module to get the current date and asks the user to input the year, month, and day of the target date. It then calculates the difference between the two dates in days and prints the result.
 
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
-
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+The program prompts the user to enter the year, month, and day of the target date using the input() function. It then creates a datetime object representing the target date using the datetime.date() constructor. The difference between the target date and the current date is calculated using the "-" operator, which returns a timedelta object representing the difference in days. The days attribute of the timedelta object is used to extract the number of remaining days, which is printed to the console using the print() function.
