@@ -1,6 +1,8 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
+# Desi calculator
+This code is a desi calculator that calculates the desi value of an item based on its dimensions. The desi value is a measure of the volume-to-weight ratio of an item, and is commonly used in the shipping industry to determine shipping costs.
 
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
+The program uses a while loop to repeatedly ask the user for the name and dimensions of an item. It then calculates the desi value of the item using the formula width x length x height / 3000, and rounds the result to the nearest integer.
 
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+After displaying the desi value of the item, the program asks the user if they want to rerun the program or exit. If the user chooses to exit, the program displays a "System Shut Down" message and terminates.
+
+Overall, this program is a simple yet useful tool for calculating the desi value of items, and can be especially helpful for businesses and individuals who frequently ship or transport items of various sizes and weights.
