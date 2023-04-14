@@ -1,6 +1,4 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
+# Dice Game
+This Python code is designed to play a dice game. When the program starts, you are given two options: "x" to roll the dice or "q" to quit the game. If you choose "x," the program will roll two dice and display their values along with the sum of their values. If you choose "q," the program will terminate.
 
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
-
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+The program uses the random module to generate random numbers for the two dice. It then calculates the sum of the two dice and displays the values to the user. If the user chooses "q," the program will terminate. This is a simple game that allows you to test your luck and have fun rolling dice.
