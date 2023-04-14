@@ -1,6 +1,2 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
-
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
-
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+# Random Password Generator
+This Python code generates a random password of a specified length using a combination of uppercase letters, lowercase letters, and digits. The length of the password is specified as an input parameter to the function "generate_password," which generates a random string of characters using the "random" and "string" modules. The "letters" variable is defined as a combination of ASCII letters and digits using the "string.ascii_letters" and "string.digits" constants. The "random.choice" function is used to randomly select characters from the "letters" set to generate a password of the specified length. The password is returned by the function and printed to the console using the "print" function.
