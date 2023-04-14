@@ -1,6 +1,6 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
+# rock paper scissors game
+This Python code is written to play the rock paper scissors game. When you start the game, you are presented with three options to choose from: rock, paper, or scissors. If you press the "Q" key, you exit the game.
 
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
+If you make an invalid selection, you will receive a warning message that says "Please enter a valid choice!" and you will be asked to make a selection again. When you make a correct selection, the computer makes a random selection, and the winner is determined by comparing your selection with the computer's selection.
 
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+If your selection and the computer's selection are the same, you will see the message "Tie game!" If your selection is rock and the computer's selection is scissors, or if your selection is paper and the computer's selection is rock, or if your selection is scissors and the computer's selection is paper, you will see the message "Congratulations, you win!" Otherwise, you will see the message "Sorry, you lose!" In this game, you can try your luck at winning using the rock paper scissors rules.
