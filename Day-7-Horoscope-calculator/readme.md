@@ -1,6 +1,2 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
-
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
-
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+# Horoscope calculator
+This is a Python code that determines your zodiac sign based on your birth date. The user is prompted to input their birth day and month. The code uses a dictionary to assign numerical values to the months. Then, it uses a series of conditional statements to check the birth month and day, and assigns the corresponding zodiac sign accordingly. The final output is the user's zodiac sign. Zodiac signs are assigned based on astrology and are said to be associated with certain personality traits and characteristics.
