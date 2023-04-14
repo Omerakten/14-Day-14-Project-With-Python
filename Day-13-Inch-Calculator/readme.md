@@ -1,6 +1,6 @@
-# Currency exchange rate calculator
-This Python code allows the user to select the base currency and the currency to be converted. The user then inputs the exchange rate of the base currency and the amount to be converted. The converted amount is calculated and printed to the screen as the result.
+# Inch Calculator
+This is a Python program that converts lengths between centimeters and inches. It uses a while loop to continuously prompt the user for their choice of conversion until a valid option is entered.
 
-If the converted amount is an integer, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {int(convertAmount)} : Converted amount {int(result)} {baseCurrencyName}". However, if the result is a decimal number, the output will be displayed as "Base currency rate {baseCurrencyRate} Convert amount {convertAmount} : Converted amount {result:.3f} {baseCurrencyName}". This ensures that the converted amount is displayed up to 3 decimal places.
+If the user selects 'cm', the program asks for the length in centimeters, calculates the equivalent length in inches, and displays the result to the user. If the user selects 'in', the program asks for the length in inches, calculates the equivalent length in centimeters, and displays the result.
 
-This code can be used for financial calculations, such as understanding prices in another country or performing currency conversion for travel purposes.
+If an invalid option is entered, the program displays an error message and prompts the user to try again.
